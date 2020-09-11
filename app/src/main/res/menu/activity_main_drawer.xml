@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_delten"
+            android:icon="@drawable/ic_action_up"
+            android:title="Mayor Tendencia" />
+        <item
+            android:id="@+id/nav_pub"
+            android:icon="@drawable/ic_action_pencil"
+            android:title="Denunciar Delito" />
+        <item
+            android:id="@+id/nav_bp"
+            android:icon="@drawable/ic_action_smile"
+            android:title="Buenas Practicas" />
+        <item
+            android:id="@+id/nav_nov"
+            android:icon="@drawable/ic_action_news"
+            android:title="Novedades GT" />
+    </group>
+
+    <item android:title="Contacto">
+        <menu>
+            <item
+                android:id="@+id/nav_ad"
+                android:icon="@drawable/ic_action_about"
+                android:title="Acerca De" />
+        </menu>
+    </item>
+
+</menu>
